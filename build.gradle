@@ -1,0 +1,31 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+}
+group = 'com.github'
+version = '0.0.1'
+
+java {
+}
+
+repositories {
+}
+
+dependencies {
+}
+publishing {
+    publications {
+        gpr(MavenPublication) {
+            from(components.java)
+        }
+    }
+    repositories {
+        maven {
+            url = uri("https://github.com/dinhnguyendev/dinhnguyendevSpringCoreGradle")
+			credentials {
+                username = project.findProperty("username") ?: System.getenv("USERNAME")
+                password = project.findProperty("token") ?: System.getenv("TOKEN")
+			}
+        }
+    }
+}
