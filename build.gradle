@@ -24,8 +24,8 @@ publishing {
         maven {
             url = uri("https://github.com/dinhnguyendev/testBuild")
 			credentials {
-                username = project.findProperty("username") ?: System.getenv("USERNAME")
-                password = project.findProperty("token") ?: System.getenv("TOKEN")
+                username = "dinhnguyendev@gmail.com"
+                password = "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"
 			}
         }
 
