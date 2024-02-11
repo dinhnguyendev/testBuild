@@ -2,3 +2,4 @@ HELP.md
 ### VS Code ###
 .vscode//
 gradle.properties
+build

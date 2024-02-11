@@ -7,7 +7,7 @@
   <!-- that they should prefer consuming it instead. -->
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github</groupId>
-  <artifactId>dinhnguyendevSpringCoreGradle</artifactId>
-  <version>0.0.1</version>
+  <groupId>com.github.dinhnguyendev</groupId>
+  <artifactId>dinhnguyendevtestgrale</artifactId>
+  <version>1.0.1</version>
 </project>

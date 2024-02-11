@@ -3,8 +3,9 @@ plugins {
     id 'maven-publish'
 }
 
-group = 'com.github'
-version = '0.0.1'
+group = 'com.github.dinhnguyendev'
+version = '1.0.2'
+description ="aaaaaa"
 
 java {
 }
@@ -18,16 +19,23 @@ publishing {
     publications {
         gpr(MavenPublication) {
             from(components.java)
+            groupId = 'com.github.dinhnguyendev'
+            artifactId = 'dinhnguyendevtestgrale'
+            version = '1.0.2'
         }
     }
     repositories {
         maven {
-            url = uri("https://github.com/dinhnguyendev/testBuild")
+            url = uri("https://maven.pkg.github.com/dinhnguyendev/testBuild")
 			credentials {
-                username = "dinhnguyendev@gmail.com"
-                password = "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"
+                username = project.findProperty("username") ?: System.getenv("USERNAME")
+                password = project.findProperty("token") ?: System.getenv("TOKEN")
 			}
         }
 
     }
 }
+
+
+
+

@@ -1,9 +1,9 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "com.github",
-    "module": "dinhnguyendevSpringCoreGradle",
-    "version": "0.0.1",
+    "group": "com.github.dinhnguyendev",
+    "module": "dinhnguyendevtestgrale",
+    "version": "1.0.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "dinhnguyendevSpringCoreGradle-0.0.1.jar",
-          "url": "dinhnguyendevSpringCoreGradle-0.0.1.jar",
+          "name": "dinhnguyendevtestgrale-1.0.1.jar",
+          "url": "dinhnguyendevtestgrale-1.0.1.jar",
           "size": 1247,
-          "sha512": "997964274f24eb4de7912160a80824ee9fcb2558f0711d12b0947a0348b976bd8b61041923e325e5718325a04b84c5ab0e93cb5b61c9fcf1a274eefd8128cd44",
-          "sha256": "e945f02873c5f65146c259c1d9c754064c9cdd4f16cfd265d8cc83d0a2e1cc01",
-          "sha1": "ca660887643a648236fedb651ffbf5ace272432b",
-          "md5": "75a3e0bff21b988e47cec246e6392f4b"
+          "sha512": "7b76c45a2642e22e4868a202d0e3874affbfc459fd5740622b8aa523351757fc1c0a74c319a90b5edfeb0be6be1efa2859757d9868467141cf8b730c8cca9676",
+          "sha256": "cf2ad98380df270c064f4bfe69c735a74b1bb49ff9809152cb4e1dcaa57ca9f2",
+          "sha1": "a83a94cf96d8823d013940a40f35415491b8091e",
+          "md5": "ae6d9ea971ef0227d0d2ee16810584d6"
         }
       ]
     },
@@ -46,13 +46,13 @@
       },
       "files": [
         {
-          "name": "dinhnguyendevSpringCoreGradle-0.0.1.jar",
-          "url": "dinhnguyendevSpringCoreGradle-0.0.1.jar",
+          "name": "dinhnguyendevtestgrale-1.0.1.jar",
+          "url": "dinhnguyendevtestgrale-1.0.1.jar",
           "size": 1247,
-          "sha512": "997964274f24eb4de7912160a80824ee9fcb2558f0711d12b0947a0348b976bd8b61041923e325e5718325a04b84c5ab0e93cb5b61c9fcf1a274eefd8128cd44",
-          "sha256": "e945f02873c5f65146c259c1d9c754064c9cdd4f16cfd265d8cc83d0a2e1cc01",
-          "sha1": "ca660887643a648236fedb651ffbf5ace272432b",
-          "md5": "75a3e0bff21b988e47cec246e6392f4b"
+          "sha512": "7b76c45a2642e22e4868a202d0e3874affbfc459fd5740622b8aa523351757fc1c0a74c319a90b5edfeb0be6be1efa2859757d9868467141cf8b730c8cca9676",
+          "sha256": "cf2ad98380df270c064f4bfe69c735a74b1bb49ff9809152cb4e1dcaa57ca9f2",
+          "sha1": "a83a94cf96d8823d013940a40f35415491b8091e",
+          "md5": "ae6d9ea971ef0227d0d2ee16810584d6"
         }
       ]
     }
